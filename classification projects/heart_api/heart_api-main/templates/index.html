@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Disease Prediction</title>
+</head>
+<body>
+    <h1>Heart Disease Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br><br>
+        
+        <label for="hypertension">Hypertension (0 for No, 1 for Yes):</label>
+        <input type="number" id="hypertension" name="hypertension"><br><br>
+        
+        <label for="avg_glucose_level">Average Glucose Level:</label>
+        <input type="number" id="avg_glucose_level" name="avg_glucose_level"><br><br>
+        
+        <label for="bmi">BMI:</label>
+        <input type="number" id="bmi" name="bmi"><br><br>
+        
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

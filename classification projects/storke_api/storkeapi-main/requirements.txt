@@ -1,0 +1,10 @@
+tensorflow==2.12.0
+Pillow
+numpy
+keras
+Flask
+flask_cors
+Flask-Compress
+python-dotenv
+joblib==1.2.0
+scikit-learn==1.3.0
